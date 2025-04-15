@@ -11,7 +11,7 @@ app.use('/api/users', userRoutes);
 
 // Base route
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send('API is now running...');
 });
 
 // Start server
